@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(48, 48, 48);
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#header {
+    background-color: rgb(53, 53, 53);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 98%;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    text-align: center;
+    z-index: 2;
+}
+
+/* デスクトップ */
+@media (min-width: 1024px) {
+    #logo {
+        height: 85px;
+        width: 85px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #title {
+        font-size: 50px;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .search {
+        height: 50%;
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: 3%;
+    }
+}
+
+/* タブレット */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #logo {
+        height: 55px;
+        width: 55px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #title {
+        font-size: 30px;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .search {
+        height: 30%;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: 3%;
+    }
+}
+
+/* モバイル */
+@media (min-width: 320px) and (max-width: 767px) {
+    #logo {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #title {
+        font-size: 15px;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .search {
+        height: 30%;
+        width: 50%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: 3%;
+    }
+}
+
+
+
+/* メインコンテンツ */
+
+/* デスクトップ */
+@media (min-width: 1024px) {
+    #results-container {
+        margin-top: 150px;
+        color: white;
+    }
+}
+
+/* タブレット */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #results-container {
+        margin-top: 100px;
+        color: white;
+    }
+}
+
+/* モバイル */
+@media (min-width: 320px) and (max-width: 767px) {
+    #results-container {
+        margin-top: 50px;
+        color: white;
+    }
+}
+
+.magenta {
+    color: rgb(255, 73, 128);
+}
+
+/* デスクトップ */
+@media (min-width: 1024px) {
+    .search_result {
+        display:block;
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+/* タブレット */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .search_result {
+        display:block;
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+/* モバイル */
+@media (min-width: 320px) and (max-width: 767px) {
+    .search_result {
+        display:block;
+        padding: 10px;
+        font-size: 18px;
+    }
+}
